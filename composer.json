@@ -1,0 +1,16 @@
+{
+    "config":{
+        "bin-dir": "bin/"
+    },
+    "autoload":{
+        "psr-0": {"AG":"src/"}
+    },
+    "require": {
+        "phpunit/phpunit": "3.7.*"
+
+    },
+    "require-dev":{
+        "phpunit/phpunit-selenium": ">=1.2"
+    }
+
+}
